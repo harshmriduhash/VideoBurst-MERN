@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Fira Sans");
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Fira Sans", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Droid Sans", "Helvetica Neue", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* background image credit: Toptal Subtle Patterns */
+  background-image: url("./img/wthx.png");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

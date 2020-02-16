@@ -1,0 +1,19 @@
+.profile {
+  margin-bottom: 70px !important;
+}
+
+.desc-form-container {
+  width: 370px;
+}
+
+.icon-div {
+  width: 40px;
+  max-width: 40px;
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  .desc-form-container {
+    width: 100%;
+  }
+}

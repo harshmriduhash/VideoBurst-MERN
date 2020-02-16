@@ -1,0 +1,36 @@
+.video-panel {
+  position: absolute;
+  width: 320px;
+  height: 180px;
+  background: #444;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  transition: opacity 0.3s, box-shadow 0.3s;
+  opacity: 0;
+}
+
+.video-panel:hover {
+  opacity: 0.85;
+  box-shadow: 0 0 200px #000 inset;
+  animation-duration: 0.3s;
+}
+
+.panel-title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 50px;
+}
+
+.panel-icons {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.panel-user > .profile-link {
+  color: wheat;
+}
+
+.panel-user > .profile-link:hover {
+  color: white;
+  text-decoration: none;
+}
